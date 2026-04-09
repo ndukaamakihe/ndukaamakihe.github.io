@@ -160,6 +160,39 @@ img {
   padding: clamp(2rem, 4vw, 3.5rem);
 }
 
+.hero-copy__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(14rem, 0.85fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.hero-copy__content {
+  min-width: 0;
+}
+
+.hero-photo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  padding: 1rem;
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at top, rgba(173, 94, 43, 0.16), transparent 45%),
+    rgba(255, 255, 255, 0.54);
+  border: 1px solid rgba(23, 32, 42, 0.08);
+}
+
+.hero-photo {
+  width: min(100%, 18rem);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 22px;
+  border: 1px solid rgba(23, 32, 42, 0.08);
+  box-shadow: 0 18px 32px rgba(21, 32, 43, 0.14);
+}
+
 .eyebrow {
   margin: 0 0 0.85rem;
   text-transform: uppercase;
@@ -395,6 +428,7 @@ img {
     padding-top: 2rem;
   }
 
+  .hero-copy__grid,
   .hero-grid,
   .card-grid {
     grid-template-columns: 1fr;
@@ -428,5 +462,9 @@ img {
   .page-shell,
   .info-card {
     border-radius: 20px;
+  }
+
+  .hero-photo {
+    width: min(100%, 15rem);
   }
 }

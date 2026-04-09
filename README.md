@@ -33,3 +33,31 @@ Send me any of the following and I can personalize the site for you:
 - your CV or resume text
 - your name and preferred contact email
 - a few projects, modules, or societies you want highlighted
+
+## How to edit this site on GitHub
+
+If you want to make quick edits in the GitHub website:
+
+1. Open the file in your repository.
+2. Click the pencil icon to edit it.
+3. Make your changes.
+4. Commit directly to `main`.
+
+The files you will usually edit are:
+
+- `_data/profile.yml`: name, headline, email, LinkedIn, homepage facts, profile image path
+- `index.md`: homepage intro text
+- `about.md`: about page text
+- `projects.md`: projects page text
+- `contact.md`: contact page details
+
+To change your profile picture:
+
+1. Upload your image to `assets/images/`
+2. Open `_data/profile.yml`
+3. Change `profile_image` to the new file path, for example `/assets/images/nduka-photo.jpg`
+
+To replace your CV:
+
+1. Upload the new PDF to `assets/files/cv.pdf`
+2. Commit the change and GitHub Pages will update automatically

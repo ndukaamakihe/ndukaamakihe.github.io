@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A placeholder portrait card with the initials NA.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8efe1" />
+      <stop offset="100%" stop-color="#ead7be" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="600" rx="40" fill="url(#bg)" />
+  <circle cx="240" cy="205" r="96" fill="#fdf8f1" opacity="0.88" />
+  <path d="M122 468c18-93 89-145 118-145s100 52 118 145" fill="#fdf8f1" opacity="0.88" />
+  <text x="240" y="552" text-anchor="middle" font-family="Georgia, serif" font-size="54" fill="#6c3517">NA</text>
+</svg>
