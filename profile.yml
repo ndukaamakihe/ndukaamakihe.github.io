@@ -4,6 +4,8 @@ university: "Queen Mary University of London"
 location: "London, United Kingdom"
 email: "ndukajohnathan@icloud.com"
 tagline: "Documenting my development as an engineer, with a growing focus on propulsion and space systems."
+profile_image: "/assets/images/Nduka-Profle.jpg/"
+profile_image_alt: "Portrait placeholder for Nduka Amakihe"
 intro: >
   I am an aerospace engineering undergraduate at Queen Mary University of London with a
   strong interest in propulsion and space systems. I created this website to present my
