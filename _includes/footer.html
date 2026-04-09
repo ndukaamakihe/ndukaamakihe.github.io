@@ -1,0 +1,18 @@
+<footer class="site-footer">
+  <div class="container footer-shell">
+    <div>
+      <p class="footer-title">{{ site.data.profile.name }}</p>
+      <p class="footer-copy">{{ site.data.profile.university }}</p>
+    </div>
+
+    <div class="footer-links">
+      {% if site.data.profile.social.linkedin != "" %}
+        <a href="{{ site.data.profile.social.linkedin }}">LinkedIn</a>
+      {% endif %}
+      {% if site.data.profile.social.github != "" %}
+        <a href="{{ site.data.profile.social.github }}">GitHub</a>
+      {% endif %}
+      <a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+    </div>
+  </div>
+</footer>

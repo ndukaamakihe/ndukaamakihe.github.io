@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="container header-shell">
+    <a class="site-brand" href="{{ '/' | relative_url }}">
+      <span class="site-brand__name">{{ site.data.profile.name }}</span>
+      <span class="site-brand__role">{{ site.data.profile.headline }}</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      {% for item in site.data.navigation %}
+        {% assign current_url = page.url | replace: 'index.html', '' %}
+        {% assign item_url = item.url | replace: 'index.html', '' %}
+        <a class="site-nav__link{% if current_url == item_url %} is-active{% endif %}" href="{{ item.url | relative_url }}">
+          {{ item.title }}
+        </a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

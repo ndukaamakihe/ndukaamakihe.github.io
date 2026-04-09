@@ -1,0 +1,41 @@
+name: "Nduka Amakihe"
+headline: "Aerospace Engineering Undergraduate focused on Propulsion and Space Systems"
+university: "Queen Mary University of London"
+location: "London, United Kingdom"
+email: "ndukajohnathan@icloud.com"
+tagline: "Documenting my development as an engineer, with a growing focus on propulsion and space systems."
+intro: >
+  I am an aerospace engineering undergraduate at Queen Mary University of London with a
+  strong interest in propulsion and space systems. I created this website to present my
+  academic development, technical work, and the engineering questions that motivate me.
+bio: >
+  I am particularly interested in the engineering that makes high-performance flight and
+  space missions possible, from propulsion concepts and system performance to the wider
+  design challenges involved in aerospace vehicles. This site is where I am building a clear
+  record of what I am learning, the work I complete during my degree, and the direction I
+  hope to take in industry or research.
+current_focus:
+  - Propulsion
+  - Space systems
+  - Aerospace vehicle design
+  - Engineering analysis and problem solving
+quick_facts:
+  - label: Degree
+    value: "BEng Aerospace Engineering"
+  - label: Based in
+    value: "London"
+  - label: Focus
+    value: "Propulsion and space systems"
+highlights:
+  - title: Technical Interests
+    text: "My strongest interests at the moment are propulsion and space systems, especially the system-level thinking needed to design, analyze, and improve aerospace vehicles."
+  - title: Projects and Coursework
+    text: "This website will grow into a portfolio of coursework, design work, technical reports, and project experience from my degree."
+  - title: Future Direction
+    text: "I want to keep developing the technical foundation and practical experience needed for future opportunities in aerospace engineering."
+social:
+  linkedin: "https://www.linkedin.com/in/nduka-raymond-a-98a55a238/"
+  github: ""
+  orcid: ""
+cv_url: "/assets/files/cv.pdf"
+cv_label: "Download CV"
